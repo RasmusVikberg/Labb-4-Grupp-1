@@ -159,6 +159,15 @@
 
 .mediumtextbox {
     width: 350px;
+/* End of Styling article 3 */
+
+
+/* Styling article 4 */
+
+.article4flex {
+  margin: 0;
+  display: flex;
+  margin-bottom: 2rem;
 }
 
 .small {
