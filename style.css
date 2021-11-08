@@ -205,7 +205,8 @@
 /* Big and small news card */
 .big {
   position: relative;
-  max-width: 658px;
+  max-width: 100%;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -247,7 +248,8 @@
 
 .small {
   position: relative;
-  max-width: 392px;
+  max-width: 100%;
+  height: auto;
   margin: 0 auto;
 }
 
