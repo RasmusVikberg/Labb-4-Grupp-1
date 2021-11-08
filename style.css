@@ -1,0 +1,296 @@
+/*Navbar + annat*/
+/* Remove border from toggler */
+.navbar-toggler {
+    border: 0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+/* Lines of the Toggler */
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #1E2D37;
+    display: block;
+    transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar{
+    margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+/* State when navbar is opened (END) */
+
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+/* State when navbar is collapsed (END) */
+
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+    background-color: #777777;
+}
+
+.navbar {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+}
+
+.navbarBoot {
+    color: #1E2D37;
+}
+
+.logoColor, a {
+    color: #0A5582;
+}
+
+.cross {
+    color: #1E2D37;
+}
+
+/* Grid */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-sm-4 {
+    padding: 0;
+}
+
+.marginNews {
+    margin-top: 70px;
+}
+
+.bigBoy {
+    height: 600px;
+    background-color: pink;
+    border: 5px solid black;
+}
+
+.mediumBoy {
+    height: 300px;
+    background-color: pink;
+    border: 5px solid black;
+}
+
+.smallBoy {
+    height: 150px;
+    background-color: pink;
+    border: 5px solid black;
+}
+
+.footerBoy {
+    height: 200px;
+    background-color: pink;
+    border: 5px solid black;
+}
+
+
+/*End Navbar + annat*/
+
+/* Big and small news card */
+.big {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.big img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+.big .container {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 15px;
+}
+
+.fas {
+    margin-left: 10px
+}
+
+.smalltext {
+    margin-bottom: -8px;
+}
+
+.bigtext {
+    margin-bottom: -3px;
+}
+
+.mediumtext {
+    margin-bottom: -5px;
+}
+
+.mediumtextbox {
+    width: 350px;
+}
+
+.small {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.small img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+.small .container {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 15px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+/* Styling article 3 */
+
+.article3flex {
+  margin: 0;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.article3flex div:first-child {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.article3flex div:last-child {
+  margin: 1rem;
+  flex: 1;
+}
+
+.article3flex h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.article3flex p {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.article3flex p:last-of-type {
+  margin-bottom: 0;
+}
+
+.article3flex:first-of-type div:first-child {
+  background-image: url("https://images.unsplash.com/photo-1635983936376-154277d90673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80");
+}
+
+/* End of Styling article 3 */
+
+/* Styling article 4 */
+
+.article4flex {
+  margin: 0;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.article4flex div:first-child {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+.article4flex div:last-child {
+  margin: 1rem;
+  flex: 1;
+}
+
+.article4flex h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.article4flex p {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.article4flex p:last-of-type {
+  margin-bottom: 0;
+}
+
+.article4flex:first-of-type div:first-child {
+  background-image: url("https://images.unsplash.com/photo-1591065411478-97722a82fe81?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=726&q=80");
+}
+
+
+/* End of Styling article 4 */
