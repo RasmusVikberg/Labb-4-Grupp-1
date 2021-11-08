@@ -68,13 +68,157 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 20;
 }
 
-
-.navbarKalle {
+.navbarBoot {
     color: goldenrod;
 }
 
-.navbarKalle:hover {
+.navbarBoot:hover {
     color: red;
+}
+
+/* Grid */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-sm-4 {
+    padding: 0;
+}
+
+.marginNews {
+    margin-top: 60px;
+}
+
+.bigBoy {
+    height: 600px;
+    background-color: pink;
+    border: 5px solid black;
+}
+
+.mediumBoy {
+    height: 300px;
+    background-color: pink;
+    border: 5px solid black;
+}
+
+.smallBoy {
+    height: 150px;
+    background-color: pink;
+    border: 5px solid black;
+}
+
+.footerBoy {
+    height: 200px;
+    background-color: pink;
+    border: 5px solid black;
+}
+
+/* Big and small news card */
+.big {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.big img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+.big .container {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 15px;
+}
+
+.fas {
+    margin-left: 10px
+}
+
+.smalltext {
+    margin-bottom: -8px;
+}
+
+.bigtext {
+    margin-bottom: -3px;
+}
+
+.mediumtext {
+    margin-bottom: -5px;
+}
+
+.mediumtextbox {
+    width: 350px;
+/* End of Styling article 3 */
+
+
+/* Styling article 4 */
+
+.article4flex {
+  margin: 0;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.small {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.small img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+.small .container {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 15px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: black;
+}
+/* End of Styling article 3 */
+
+
+/* Styling article 4 */
+
+.article4flex {
+  margin: 0;
+  display: flex;
+  margin-bottom: 2rem;
 }
