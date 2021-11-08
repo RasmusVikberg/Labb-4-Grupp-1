@@ -1,3 +1,4 @@
+/*Navbar + annat*/
 /* Remove border from toggler */
 .navbar-toggler {
     border: 0;
@@ -15,7 +16,7 @@
 .toggler-icon{
     width: 30px;
     height: 3px;
-    background-color: #e74c3c;
+    background-color: #1E2D37;
     display: block;
     transition: all 0.2s;
 }
@@ -72,11 +73,15 @@
 }
 
 .navbarBoot {
-    color: goldenrod;
+    color: #1E2D37;
 }
 
-.navbarBoot:hover {
-    color: red;
+.logoColor, a {
+    color: #0A5582;
+}
+
+.cross {
+    color: #1E2D37;
 }
 
 /* Grid */
@@ -90,7 +95,7 @@
 }
 
 .marginNews {
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .bigBoy {
@@ -116,6 +121,9 @@
     background-color: pink;
     border: 5px solid black;
 }
+
+
+/*End Navbar + annat*/
 
 /* Big and small news card */
 .big {
