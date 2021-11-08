@@ -68,8 +68,8 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 20;
 }
-
 
 .navbarBoot {
     color: goldenrod;
@@ -87,6 +87,10 @@
 
 .col-sm-4 {
     padding: 0;
+}
+
+.marginNews {
+    margin-top: 60px;
 }
 
 .bigBoy {
