@@ -116,3 +116,90 @@
     background-color: pink;
     border: 5px solid black;
 }
+
+/* Big and small news card */
+.big {
+  position: relative;
+  max-width: 658px;
+  margin: 0 auto;
+}
+
+.big img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+.big .container {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 15px;
+}
+
+.fas {
+    margin-left: 10px
+}
+
+.smalltext {
+    margin-bottom: -8px;
+}
+
+.bigtext {
+    margin-bottom: -3px;
+}
+
+.mediumtext {
+    margin-bottom: -5px;
+}
+
+.mediumtextbox {
+    width: 350px;
+}
+
+.small {
+  position: relative;
+  max-width: 392px;
+  margin: 0 auto;
+}
+
+.small img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+.small .container {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 15px;
+}
+
+
+
+button {
+    background-color: transparent;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: black;
+}
