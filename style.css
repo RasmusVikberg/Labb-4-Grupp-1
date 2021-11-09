@@ -101,52 +101,43 @@
 .bigBoy {
     height: 600px;
     background-color: pink;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
 .mediumBoy {
     height: 200px;
     background-color: pink;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
 .smallBoy {
     height: 150px;
     background-color: pink;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
 .footerBoy {
     height: 200px;
     background-color: pink;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
 
 /*End Navbar + annat*/
 
 /* Big and small news card */
-.big {
-  position: relative;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
+.imgBackgroundOne {
+  background-image: url(https://d30fl32nd2baj9.cloudfront.net/media/2021/10/29/biden-vatican-291021-01.jpg/ALTERNATES/w940/biden-vatican-291021-01.jpg);
+  background-size: cover;
 }
 
-.big img {
-    vertical-align: middle;
-    width: 100%;
-    height: auto;
-}
-
-.big .container {
+.container {
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.7);
     color: #f1f1f1;
     width: 100%;
-    padding: 15px;
 }
 
 .fas {
