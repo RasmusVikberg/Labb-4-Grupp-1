@@ -47,7 +47,7 @@ function toggleText() {
 }
 
 //This event makes a message pop up on the screen when you reach the end of the page
-window.addEventListener('scroll', () => {
+//window.addEventListener('scroll', () => {
     const scrollable = document.documentElement.scrollHeight - window.innerHeight;
     const scrolled = window.scrollY;
 
