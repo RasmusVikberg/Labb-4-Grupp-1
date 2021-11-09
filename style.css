@@ -255,41 +255,31 @@ button:hover {
 
 /* Styling article 4 */
 
-.article4flex {
-  margin: 0;
-  display: flex;
-  margin-bottom: 2rem;
+.imgBackgroundTwo {
+    background-image: url('https://i.ibb.co/Jmv20bs/Frame-16.png');
+    background-size: cover;
 }
 
-.article4flex div:first-child {
-  flex: 1;
-  background-size: cover;
-  background-position: center;
+.blacko {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    background-size: cover;
 }
 
-.article4flex div:last-child {
-  margin: 1rem;
-  flex: 1;
+.card2text1 {
+    font-size: 10px;
+    color: white;
 }
 
-.article4flex h3 {
-  font-size: 1.5rem;
-  margin-top: 0;
-  font-weight: 400;
+.card2text2 {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
 }
 
-.article4flex p {
-  font-size: 1rem;
-  line-height: 1.4;
-  font-weight: 400;
-}
-
-.article4flex p:last-of-type {
-  margin-bottom: 0;
-}
-
-.article4flex:first-of-type div:first-child {
-  background-image: url("https://images.unsplash.com/photo-1591065411478-97722a82fe81?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=726&q=80");
+.card2text3 {
+    font-size: 12px;
+    color: white;
 }
 
 /* End of Styling article 4 */
