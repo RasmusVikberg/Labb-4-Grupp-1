@@ -101,25 +101,25 @@
 .bigBoy {
     height: 600px;
     background-color: pink;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
 .mediumBoy {
     height: 200px;
     background-color: pink;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
 .smallBoy {
     height: 150px;
     background-color: pink;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
 .footerBoy {
     height: 200px;
     background-color: pink;
-    border: 5px solid black;
+    border: 5px solid white;
 }
 
 
