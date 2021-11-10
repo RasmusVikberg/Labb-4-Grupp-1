@@ -308,7 +308,7 @@ button:hover {
 /* Some default styles to make each box visible */
 .box {
     color: black;
-    text-align: center;
+    text-align: start;
   }
 
   /* We start writing out flexbox here. The above is just page setup */
