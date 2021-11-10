@@ -73,11 +73,23 @@
 }
 
 .navbarBoot {
-    color: #1E2D37;
+    background-color: transparent;
+    border: none;
+    border-radius: 7px;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
 .navbarBoot:hover {
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .logoColor, a {
