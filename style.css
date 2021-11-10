@@ -76,6 +76,10 @@
     color: #1E2D37;
 }
 
+.navbarBoot:hover {
+    color: black;
+}
+
 .logoColor, a {
     color: #0A5582;
 }
