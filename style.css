@@ -1,4 +1,34 @@
 /*Navbar + annat*/
+/*Font style */
+
+h1 {
+  font-family:"Times New Roman", "Times", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h2 {
+  font-family:'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+h3 {
+  font-family:'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+p {
+  font-family:'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
 /* Remove border from toggler */
 .navbar-toggler {
     border: 0;
