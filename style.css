@@ -5,7 +5,7 @@ h1 {
   font-family:"Times New Roman", "Times", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 20px;
 }
 
 h2 {
@@ -26,7 +26,7 @@ p {
   font-family:'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 16px;
 }
 
 /* Remove border from toggler */
@@ -146,19 +146,16 @@ p {
 
 .bigBoy {
     height: 600px;
-    background-color: pink;
     border: 5px solid white;
 }
 
 .mediumBoy {
     height: 300px;
-    background-color: pink;
     border: 5px solid white;
 }
 
 .smallBoy {
     height: 150px;
-    background-color: pink;
     border: 5px solid white;
 }
 
@@ -277,6 +274,42 @@ button:hover {
     color: white;
 }
 
+/* Article 4*/
+/* Some default styles to make each box visible */
+.box {
+    color: black
+    text-align: center;
+  }
+  
+  /* We start writing out flexbox here. The above is just page setup */
+  .wesbos {
+    display:flex;
+    height: 100%;
+  }
+  
+  .box1 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+  
+  .box2 {
+    flex-basis: 100px;
+    flex-grow: 2;
+    flex-shrink: 2;
+  }
+
+.imgBackgroundThree {
+    background-image: url('https://i.ibb.co/5jNL6Tf/Frame-17.png');
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.imgBackgroundFour {
+    background-image: url('https://i.ibb.co/xMdNxmN/Frame-18.png');
+    background-size: cover;
+}
+  
 
 /*Footer*/
 
