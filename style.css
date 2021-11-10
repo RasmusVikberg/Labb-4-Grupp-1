@@ -82,6 +82,7 @@ p {
 
 .has-search .form-control {
   padding-left: 2.375rem;
+  border-radius: 10px;
 }
 
 .has-search .form-control-feedback {
