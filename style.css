@@ -29,6 +29,12 @@ p {
   line-height: 16px;
 }
 
+li {
+  font-family:'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+
+}
 /* Remove border from toggler */
 .navbar-toggler {
     border: 0;
@@ -72,6 +78,30 @@ p {
     transform-origin: 10% 90%;
 }
 /* State when navbar is opened (END) */
+
+/* Search box with icon */
+
+.main {
+  margin-top: 8px;
+  margin-bottom: -10px;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  border-radius: 10px;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
 
 /* State when navbar is collapsed (START) */
 .navbar-toggler.collapsed .top-bar {
@@ -280,22 +310,22 @@ button:hover {
     color: black;
     text-align: center;
   }
-  
+
   /* We start writing out flexbox here. The above is just page setup */
   .wesbos {
     display:flex;
     height: 100%;
   }
-  
+
   .box1 {
     flex-basis: 100px;
     flex-grow: 1;
     flex-shrink: 1;
   }
-  
+
   .box2 {
     flex-basis: 100px;
-    flex-grow: 2;
+    flex-grow: 1.5;
     flex-shrink: 2;
   }
 
@@ -308,8 +338,9 @@ button:hover {
 .imgBackgroundFour {
     background-image: url('https://i.ibb.co/xMdNxmN/Frame-18.png');
     background-size: cover;
+    margin-right: 10px;
 }
-  
+
 
 /*Footer*/
 
