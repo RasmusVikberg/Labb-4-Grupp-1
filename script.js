@@ -47,11 +47,11 @@ function toggleText() {
 }
 
 //This event makes a message pop up on the screen when you reach the end of the page
-window.addEventListener('scroll', () => {
-    const scrollable = document.documentElement.scrollHeight - window.innerHeight;
-    const scrolled = window.scrollY;
+//window.addEventListener('scroll', () => {
+  //  const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+    //const scrolled = window.scrollY;
 
-    if (Math.ceil(scrolled) === scrollable) {
-        alert('You\'ve reached the bottom');
-    }
-});
+    //if (Math.ceil(scrolled) === scrollable) {
+      //  alert('You\'ve reached the bottom');
+    //}
+//});
