@@ -277,7 +277,7 @@ button:hover {
 /* Article 4*/
 /* Some default styles to make each box visible */
 .box {
-    color: black
+    color: black;
     text-align: center;
   }
   
