@@ -196,6 +196,7 @@ li {
 .imgBackgroundOne {
   background-image: url(https://d30fl32nd2baj9.cloudfront.net/media/2021/10/29/biden-vatican-291021-01.jpg/ALTERNATES/w940/biden-vatican-291021-01.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .container {
@@ -290,12 +291,14 @@ button:hover {
 .imgBackgroundTwo {
     background-image: url('https://i.ibb.co/Jmv20bs/Frame-16.png');
     background-size: cover;
+    background-position: center;
 }
 
 .blacko {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.7);
     background-size: cover;
+    background-position: center;
 }
 
 .card2text1 {
@@ -342,12 +345,14 @@ button:hover {
 .imgBackgroundThree {
     background-image: url('https://i.ibb.co/5jNL6Tf/Frame-17.png');
     background-size: cover;
+    background-position: center;
     margin-right: 10px;
 }
 
 .imgBackgroundFour {
     background-image: url('https://i.ibb.co/xMdNxmN/Frame-18.png');
     background-size: cover;
+    background-position: center;
     margin-right: 10px;
 }
 
