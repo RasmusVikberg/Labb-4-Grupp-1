@@ -84,6 +84,7 @@ li {
 .main {
   margin-top: 8px;
   margin-bottom: -10px;
+  margin-right: 95px;
 }
 
 .has-search .form-control {
@@ -250,6 +251,15 @@ li {
     width: 100%;
     padding: 15px;
 }
+
+
+        /* Initially, hide the extra text that
+            can be revealed with the button */
+        #moreText {
+            /* Display nothing for the element */
+            display: none;
+        }
+
 
 button {
     background-color: transparent;
