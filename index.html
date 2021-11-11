@@ -12,6 +12,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://kit.fontawesome.com/7809c8ed05.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -46,10 +49,16 @@
                                 <a class="btn navbarBoot" href="#">Contact</a>
                             </li>
                         </ul>
-                        <form class="form-inline my-2 my-lg-0 ml-auto">
-                            <input class="form-control mr-sm-2 rounded" type="search" placeholder="Search articles"
-                                aria-label="Search">
-                        </form>
+                        <div class="main">
+                            <div class="form-group has-search">
+                                <span class="fa fa-search form-control-feedback"></span>
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
                     </div>
                 </div>
             </nav>
@@ -59,10 +68,8 @@
         <!--Nyheter-->
         <div class="container-fluid marginNews">
             <div class="row justify-content-center">
-                <div class="col-sm-6 bigBoy">
+                <div class="col-sm-6 bigBoy imgBackgroundOne">
                     <section class="big">
-                        <img src="https://d30fl32nd2baj9.cloudfront.net/media/2021/10/29/biden-vatican-291021-01.jpg/ALTERNATES/w940/biden-vatican-291021-01.jpg"
-                            alt="Joe">
                         <section class="container">
                             <section class="row">
                                 <div class="d-block">
@@ -74,101 +81,82 @@
                                         Diplomatic Marathon With a Visit to the Vatican</h1>
                                 </div>
                                 <div class="col-9">
-                                    <p class="p-1 mediumtext" style="background-color: bluee; font-size: 13px;">President Biden is meeting with Pope Francis ahead of the G20 summit in Rome and a climate gathering in Glasgow.
-                                      <!-- read more-->
-                                  <span id="points"></span>
-                                  <!-- Define the text that would be
+                                    <p class="p-1 mediumtext" style="background-color: bluee; font-size: 13px;">
+                                        President Biden is meeting with Pope Francis ahead of the G20 summit in Rome and
+                                        a climate gathering in Glasgow.
+                                        <!-- read more-->
+                                        <span id="points"></span>
+                                        <!-- Define the text that would be
                                       hidden by default and only shown
                                       when clicked on the button -->
-                                  <span id="moreText"> This necessity was
-                                      as personal to me as it was universal.
-                                      This need combined with my passion for
-                                      teaching resulted in GeeksforGeeks as
-                                      we know today. My message to you, in
-                                      our inaugural edition of Geeks Digest,
-                                      would be that if you are looking for
-                                      a problem to work on, you don’t need
-                                      to look very far for it. All you should
-                                      do is to look around yourself.
-                                  </span></p>
+                                        <span id="moreText"> This necessity was
+                                            as personal to me as it was universal.
+                                            This need combined with my passion for
+                                            teaching resulted in GeeksforGeeks as
+                                            we know today. My message to you, in
+                                            our inaugural edition of Geeks Digest,
+                                            would be that if you are looking for
+                                            a problem to work on, you don’t need
+                                            to look very far for it. All you should
+                                            do is to look around yourself.
+                                        </span></p>
                                 </div>
 
                                 <div class="col-3 g-4">
-                                    <button class="p-2 smallbutton" onclick="toggleText()" style="font-size: 13px;">Read more<i class="fas fa-arrow-down"></i></button>
+                                    <button class="p-2 smallbutton" onclick="toggleText()" style="font-size: 13px;">Read
+                                        more<i class="fas fa-arrow-down"></i></button>
                                 </div>
                             </section>
                         </section>
                     </section>
                 </div>
                 <div class="col-sm-4">
-                    <div class="col-sm-12 mediumBoy">
-                        <section class="small">
-                            <img src="https://static01.nyt.com/images/2021/10/26/nyregion/00mayorguide-top1/00mayorguide-top1-mediumSquareAt3X.jpg"
-                                alt="människor">
-                            <section class="container">
-                                <section class="row">
-                                    <div class="d-block">
-                                        <p class="p-1 smalltext" style="background-color: greeen; font-size: 10px;">
-                                            Published Fri, 29 Oct 2021 by Dan Merica and Kevin Lipak, CNN</p>
-                                    </div>
-                                    <div class="d-block bigtext">
-                                        <h1 class="p-1" style="background-color: rede; font-size: 16px;">A Last-Chance
-                                            Guide to the New York Mayor</h1>
-                                    </div>
-                                    <div class="col-7">
-                                        <p class="p-1 mediumtextbox" style="background-color: bluee; font-size: 13px;">
-                                            Fusion GPS was hired by a Democratic lawyer acting on behalf of campaign and
-                                            committee.</p>
-                                    </div>
-                                    <div class="col-3 g-5">
-                                        <button class="p-1 smallbutton" style="font-size: 13px;">Read more<i class="fas fa-arrow-down"></i></button>
-                                    </div>
-                                </section>
-                            </section>
-                        </section>
+                    <div class="col-sm-12 mediumBoy d-flex align-items-end imgBackgroundTwo">
+                        <div class="container-fluid card-body blacko">
+                            <p class="card-title card2text1">Published Fri, 29 Oct 2021 by Dan Merica and Kevin Lipak,
+                                CNN
+                            </p>
+                            <h1 class="card-text card2text2">A Last-Chance Guide to the New York Mayor’s Race
+                            </h1>
+                            <p class="card2text3">Fusion GPS was hired by a Democratic lawyer acting on behalf of
+                                campaign and committee.</p>
+                        </div>
                     </div>
 
                     <!--Start of Article 3-->
                     <div class="col-sm-12 smallBoy">
-                        <div class="column">
-                            <figure class="article3flex">
-                                <div></div>
-                                <div>
-                                    <h3>The surprising History of Roe v. Wade</h3>
-                                    <p>The Constitution of the US protects a pregnant woman's liberty to choose to have
-                                        an abortion.</p>
-                                </div>
-                            </figure>
+                        <div class="wesbos">
+                            <div class="box box1 imgBackgroundThree"></div>
+                            <div class="box box2">
+                                <h1>The surprising History of Roe v. Wade</h1>
+                                <p>The Constitution of the US protects a pregnant woman's liberty to choose to have an
+                                    abortion.</p>
+                            </div>
                         </div>
                     </div>
                     <!--End of Article 3-->
 
                     <!--Start of Article 4-->
                     <div class="col-sm-12 smallBoy">
-                        <div class="column">
-                            <figure class="article4flex">
-                                <div></div>
-                                <div>
-                                    <h3>The Common Halloween Candy Mistakes That Parents Make</h3>
-                                    <p>
-                                        <ul>
-                                            <li>Don't stress about the sweet tooth </li>
-                                            <li>Don't put the good stuff out of reach </li>
-                                            <li>Set limits</li>
-                                        </ul>
-                                    </p>
-                                </div>
-                            </figure>
+                        <div class="wesbos">
+                            <div class="box box1 imgBackgroundFour"></div>
+                            <div class="box box2">
+                              <h1>The Common Halloween Candy   That Parents Make.</h1>
+                              <ul>
+                                <li>Don't stress about the sweet tooth.</li>
+                                <li>Don't put the good stuff out of reach.</li>
+                                <li>Set limits. </li>
+</ul></div>
                         </div>
                     </div>
-
                     <!--End of Article 4-->
 
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-sm-10 mediumBoy">
-                <img class="img-fluid w-100 h-100 advertisebottom" src="https://www.cbj.ca/wp-content/uploads/2020/02/business-as-usual-foodora-canada-receives-decision-from-labour-board1.jpg" alt="Girl in a jacket">
+                <div class="col-sm-10 footerBoy">
+                    <img class="img-fluid w-100 h-100" src="https://i.ibb.co/wK217bq/FOODORA.png"
+                        alt="Girl in a jacket">
                 </div>
             </div>
         </div>
@@ -186,4 +174,5 @@
         </script>
         <script src="script.js"></script>
     </body>
+
 </html>
