@@ -83,10 +83,10 @@ li {
 
 /* Search box with icon */
 
-.main {
+.searchForm {
   margin-top: 8px;
   margin-bottom: -10px;
-  margin-right: 95px;
+  margin-right: 12.5%;
 }
 
 .has-search .form-control {
@@ -109,6 +109,10 @@ li {
 /* State when navbar is collapsed (START) */
 .navbar-toggler.collapsed .top-bar {
     transform: rotate(0);
+}
+
+.navbar-expand-lg, .navbar-collapse {
+    margin-left: 3%;
 }
 
 .navbar-toggler.collapsed .middle-bar {
