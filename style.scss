@@ -1,0 +1,389 @@
+/*Navbar + annat*/
+/*Font style */
+$font-family: "Open Sans", sans-serif;
+
+%font-styling {
+  font-family:$font-family;
+  font-weight: 400;
+}
+
+h1 {
+  font-family:"Times New Roman", "Times", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h2 {
+  @extend %font-styling;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+h3 {
+  @extend %font-styling;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+p {
+  @extend %font-styling;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+li {
+  @extend %font-styling;
+  font-size: 12px;
+
+}
+/* Remove border from toggler */
+.navbar-toggler {
+    border: 0;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+/* Lines of the Toggler */
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #1E2D37;
+    display: block;
+    transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar{
+    margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+/* State when navbar is opened (END) */
+
+/* Search box with icon */
+
+.main {
+  margin-top: 8px;
+  margin-bottom: -10px;
+  margin-right: 95px;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  border-radius: 10px;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+/* State when navbar is collapsed (END) */
+
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+    background-color: #777777;
+}
+
+.navbar {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+}
+
+.navbarBoot {
+    background-color: transparent;
+    border: none;
+    border-radius: 7px;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.navbarBoot:hover {
+    background-color: black;
+    color: white;
+}
+
+.logoColor, a {
+    color: #0A5582;
+}
+
+.cross {
+    color: #1E2D37;
+}
+
+/* Grid */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-sm-4 {
+    padding: 0;
+}
+
+.marginNews {
+    margin-top: 70px;
+}
+
+.bigBoy {
+    height: 600px;
+    border: 5px solid white;
+}
+
+.mediumBoy {
+    height: 300px;
+    border: 5px solid white;
+}
+
+.smallBoy {
+    height: 150px;
+    border: 5px solid white;
+}
+
+/*End Navbar + annat*/
+
+/* Big and small news card */
+.imgBackgroundOne {
+  background-image: url(https://d30fl32nd2baj9.cloudfront.net/media/2021/10/29/biden-vatican-291021-01.jpg/ALTERNATES/w940/biden-vatican-291021-01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 15px;
+}
+
+.fas {
+    margin-left: 10px
+}
+
+.smalltext {
+    margin-bottom: -8px;
+}
+
+.bigtext {
+    margin-bottom: -3px;
+}
+
+.mediumtext {
+    margin-bottom: -5px;
+    margin-left: 13px;
+}
+
+.mediumtextbox {
+    width: 350px;
+}
+
+.small {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.small img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
+
+.small .container {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 15px;
+}
+
+
+        /* Initially, hide the extra text that
+            can be revealed with the button */
+        #moreText {
+            /* Display nothing for the element */
+            display: none;
+        }
+
+
+button {
+    background-color: transparent;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 30px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+/* Styling article 3 */
+
+
+/*  */
+
+.imgBackgroundTwo {
+    background-image: url('https://i.ibb.co/Jmv20bs/Frame-16.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.blacko {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+    background-position: center;
+}
+
+.card2text1 {
+    font-size: 10px;
+    color: white;
+}
+
+.card2text2 {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.card2text3 {
+    font-size: 12px;
+    color: white;
+}
+
+/* Article 4*/
+/* Some default styles to make each box visible */
+.box {
+    color: black;
+    text-align: start;
+  }
+
+  /* We start writing out flexbox here. The above is just page setup */
+  .wesbos {
+    display:flex;
+    height: 100%;
+  }
+
+  .box1 {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .box2 {
+    flex-basis: 100px;
+    flex-grow: 1.5;
+    flex-shrink: 2;
+  }
+
+.imgBackgroundThree {
+    background-image: url('https://i.ibb.co/5jNL6Tf/Frame-17.png');
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.imgBackgroundFour {
+    background-image: url('https://i.ibb.co/xMdNxmN/Frame-18.png');
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+
+/*Footer*/
+
+.footerBoy {
+    border: 5px solid white;
+}
+
+.footerText {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerText {
+    top: 2px;
+    left: 9px;
+    font-size: 18px;
+  }
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding: 0;
+}
+
+/*End Footer*/
