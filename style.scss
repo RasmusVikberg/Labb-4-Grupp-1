@@ -92,6 +92,8 @@ li {
 .has-search .form-control {
   padding-left: 2.375rem;
   border-radius: 10px;
+  @extend %font-styling;
+  font-size: 13px;
 }
 
 .has-search .form-control-feedback {
