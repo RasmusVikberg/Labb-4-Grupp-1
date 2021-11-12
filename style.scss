@@ -1,5 +1,11 @@
 /*Navbar + annat*/
 /*Font style */
+$font-family: "Open Sans", sans-serif;
+
+%font-styling {
+  font-family:$font-family;
+  font-weight: 400;
+}
 
 h1 {
   font-family:"Times New Roman", "Times", sans-serif;
@@ -9,29 +15,25 @@ h1 {
 }
 
 h2 {
-  font-family:'Open Sans', sans-serif;
-  font-weight: 400;
+  @extend %font-styling;
   font-size: 13px;
   line-height: 17px;
 }
 
 h3 {
-  font-family:'Open Sans', sans-serif;
-  font-weight: 400;
+  @extend %font-styling;
   font-size: 11px;
   line-height: 14px;
 }
 
 p {
-  font-family:'Open Sans', sans-serif;
-  font-weight: 400;
+  @extend %font-styling;
   font-size: 12px;
   line-height: 16px;
 }
 
 li {
-  font-family:'Open Sans', sans-serif;
-  font-weight: 400;
+  @extend %font-styling;
   font-size: 12px;
 
 }
