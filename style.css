@@ -1,6 +1,6 @@
 /*Navbar + annat*/
 /*Font style */
-li, p, h3, h2 {
+.has-search .form-control, li, p, h3, h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
@@ -85,6 +85,7 @@ li {
 .has-search .form-control {
   padding-left: 2.375rem;
   border-radius: 10px;
+  font-size: 13px;
 }
 
 .has-search .form-control-feedback {
