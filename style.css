@@ -75,8 +75,8 @@ li {
 }
 
 /* State when navbar is opened (END) */
-/* Search box with icon */
-.main {
+/* Search box with icon*/
+.searchForm {
   margin-top: 8px;
   margin-bottom: -10px;
   margin-right: 95px;
