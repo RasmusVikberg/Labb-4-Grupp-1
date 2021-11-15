@@ -285,6 +285,11 @@ button:hover {
   margin-left: 22px;
 }
 
+.smallbutton2 {
+  width: 80%;
+  margin-left: 22px;
+}
+
 /* Styling article 3 */
 /*  */
 .imgBackgroundTwo {
@@ -298,6 +303,10 @@ button:hover {
   background: rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-position: center;
+}
+
+.art2button {
+  margin-top: 70px;
 }
 
 .card2text1 {
