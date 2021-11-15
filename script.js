@@ -26,7 +26,7 @@ function toggleText() {
 
         // Change the text on button to
         // 'Show More'
-        buttonText.innerHTML = "Read More";
+        buttonText.innerHTML = 'Read more <img src="arrow.svg" alt="Arrow-icon" class="smallbutton">';
     }
 
     // If the hidden portion is revealed,
@@ -42,7 +42,7 @@ function toggleText() {
 
         // Change the text on button
         // to 'Show Less'
-        buttonText.innerHTML = "Read Less";
+        buttonText.innerHTML = 'Read less <img src="arrow.svg" alt="Arrow-icon" class="smallbutton">';
     }
 }
 
