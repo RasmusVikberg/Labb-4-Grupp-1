@@ -275,19 +275,14 @@ button {
   margin-right: 20px;
 }
 
-button:hover {
-  background-color: #fff;
-  color: black;
-}
-
 .smallbutton {
-  width: 80%;
+  width: 70%;
   margin-left: 22px;
 }
 
 .smallbutton2 {
-  width: 80%;
-  margin-left: 22px;
+  width: 100%;
+  margin-left: 10px;
 }
 
 /* Styling article 3 */
