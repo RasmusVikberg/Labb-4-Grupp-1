@@ -1,6 +1,6 @@
 /*Navbar + annat*/
 /*Font style */
-li, p, h3, h2 {
+.has-search .form-control, li, p, h3, h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
@@ -75,7 +75,7 @@ li {
 }
 
 /* State when navbar is opened (END) */
-/* Search box with icon */
+/* Search box with icon*/
 .searchForm {
   margin-top: 8px;
   margin-bottom: -10px;
@@ -85,6 +85,7 @@ li {
 .has-search .form-control {
   padding-left: 2.375rem;
   border-radius: 10px;
+  font-size: 13px;
 }
 
 .has-search .form-control-feedback {
@@ -105,7 +106,7 @@ li {
 }
 
 .navbar-expand-lg, .navbar-collapse {
-    margin-left: 3%;
+  margin-left: 3%;
 }
 
 .navbar-toggler.collapsed .middle-bar {
