@@ -272,12 +272,17 @@ button {
   margin: 4px 2px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
-  margin-left: 30px;
+  margin-right: 20px;
 }
 
 button:hover {
   background-color: #fff;
   color: black;
+}
+
+.smallbutton {
+  width: 80%;
+  margin-left: 22px;
 }
 
 /* Styling article 3 */
