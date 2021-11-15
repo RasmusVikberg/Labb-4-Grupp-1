@@ -303,6 +303,7 @@ button:hover {
   background: rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-position: center;
+  padding-top: 20px;
 }
 
 .art2button {
